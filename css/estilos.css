@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+}
+
+body {
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+}
+
+.container {
+    background-image: url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.bg-dark {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: 100vh;
+}
+
+.header {
+    width: 100vw;
+    height: 8vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    margin-left: 120px;
+}
+
+.brand > .logo {
+    width: 300px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu > .menu-item {
+    color: #CCCCCC;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+.menu > .menu-item:hover {
+    color: white;
+}
+
+.buscador {
+    margin-right: 150px;
+}
+
+.buscador > .buscar {
+    width: 350px;
+    height: 5vh;
+    border-radius: 5px;
+    border: 2px solid #aeaeae;
+    background-color: transparent;
+    background-image: url('../img/search.png');
+    background-position: 5px 5px;
+    background-repeat: no-repeat;
+    padding-left: 60px;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.content-left {
+    margin-left: 170px;
+    margin-top: 20vh;
+    width: 40vw;
+}
+
+.serie {
+    display: flex;
+    align-items: center;
+    letter-spacing: 10px;
+}
+
+.serie > img {
+    height: 2rem;
+    margin-right: 10px;
+}
+
+.content-left > .nombre {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5rem;
+    text-transform: uppercase;
+    line-height: 70px;
+    text-align: left;
+}
+
+.details {
+    display: flex;
+    gap: 15px;
+    color: #CCCCCC;
+    font-size: 1.3rem;
+    margin-top: 15px;
+}
+
+.details > .badge {
+    background-color: red;
+    font-size: 1.2rem;
+    padding: 2px;
+    color: white;
+}
+
+.sinopsis {
+    font-size: 1.3rem;
+    color: white;
+    line-height: 30px;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.btn {
+    width: 130px;
+    height: 40px;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    border: 0px;
+    font-size: 1.3rem;
+}
+
+.btn-red:hover {
+    background-color: darkred;
+}
+
+.btn-dark {
+    background-color: transparent;
+    color: white;
+    border: 1px solid #CCCCCC;
+    font-size: 1.3rem;
+}
+
+.btn-dark:hover {
+    background-color: darkred;
+    border: 0px;
+}
+
+.watch {
+    margin-top: 30px;
+}
+
+.play {
+    display: flex;
+    align-items: center;
+    color:white;
+    padding: 10px;
+    gap: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 1.3rem;
+}
+
+.play > img {
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.play:hover {
+    background-color: #0000007a;
+}
